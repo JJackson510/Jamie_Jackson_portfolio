@@ -1,0 +1,151 @@
+:root {
+    --primary-color: #6495ED;
+    --secondary-color: #212121;
+}
+
+*{
+    margin: 0;
+    background-color: rgb(209, 154, 99);
+}
+
+
+
+/*Header and Nav */
+
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--secondary-color);
+}
+
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: wheat;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+}
+
+header a {
+    text-decoration: none;
+    color: wheat; 
+    background-color: var(--secondary-color);
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav >a {
+    margin-right: 20px;
+}
+
+header nav ul {
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: var(--secondary-color);
+}
+
+header nav ul li a {
+    
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+    background-color: var(--secondary-color);
+    
+}
+
+/* Header Ends*/
+
+/* Work Section */
+.other-projects {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+    .other-projects img {
+    height: 30%; 
+    width: 20%;
+    border: 10px solid var(--primary-color);
+    
+    }
+
+    .other-projects :hover {
+        background-color: var(--secondary-color);
+    }
+
+    .other-projects a {
+        background-image: url('./img/robot-fight.jpg');
+    background-size: cover;
+    background-position: 80%;
+    height: 200px;
+    width: 40%;
+    display: block;
+    border: 15px solid  var(--primary-color);
+    border-radius: 25px;
+    }
+
+    a.solution  {
+        background-image: url('./img/caculator.jpg');
+    }
+
+  .main-project :hover {
+    background-color: var(--secondary-color);
+    border: 5px solid var(--primary-color);
+  }
+    /* End of work section*/
+
+.about-me p {
+    padding: 25px;
+    line-height: 1.8;
+    font-size: larger;
+    
+}
+
+.about-me div{
+    width: 70%;
+}
+
+h2 {
+    width: 15%;
+    font-size: 30px;
+    border-right: 2px solid  var(--primary-color);
+    display: block;
+}
+section {
+    display: flex;
+    width: 100%;
+}
+
+
+    .contact-me {
+        display: flex;
+        padding: 200px 0;
+        width: 100%;
+    }
+
+    .contact-me p {
+        font-size: xx-large;
+
+    }
+
+    .jumbo {
+        padding: 9px 0;
+        background-color:  var(--primary-color);
+        font-size: x-large;
+        display: flex;
+        justify-content: space-between;
+    }
+    .jumbo h3 {
+        background-color:  var(--primary-color);
+    }
+
+    .jumbo img {height: 250px;}
