@@ -67,7 +67,8 @@ header nav ul li a {
 /* Work Section */
 .other-projects {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-left: 60px;
 
 }
 
@@ -101,6 +102,12 @@ header nav ul li a {
     background-color: var(--secondary-color);
     border: 5px solid var(--primary-color);
   }
+
+  .main-project img {
+    height: 600px;
+    display flex;
+    justify-content: center;
+}
     /* End of work section*/
 
 .about-me p {
@@ -150,9 +157,12 @@ section {
 
     .jumbo img {height: 250px;}
 
-    .localbeats img {
+    .other-projects2 img {
         height: 360px;
-        
-        
+        margin: 60px;
+        border: 10px var(--primary-color);
+    }
 
+    .chat {
+        border: var(--primary-color);
     }
